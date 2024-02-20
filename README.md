@@ -28,7 +28,7 @@ Written by JamCourage
    程式碼可參考：           
    (a) 迭代各公司，計算各公司永續報告書語調分數  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JamCourage/Tone-of-Sustainability-Report/blob/main/crawler_finbert.ipynb)
                  
-   (b) 記錄一家公司每一句的語調與分類                         
+   (b) 記錄一家公司每一句的語調與分類  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JamCourage/Tone-of-Sustainability-Report/blob/main/crawler_finbert_for_one.ipynb)                         
    
    【輸出結果】              
    107年至110年之各公司永續報告書語調分數(Tone)結果，可參考[Tone_breakdown.xlsx](Tone_breakdown.xlsx)                       
