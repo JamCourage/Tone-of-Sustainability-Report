@@ -16,6 +16,6 @@ Python(selenium, pandas)
    (2) 設定並初始化Chrome     
    (3) 使用for迴圈，迭代每一公司，依序從公開資訊觀測站，下載其英文永續報告書      
    【程式碼】            
-   程式碼可參考[web_crawer_for_ESGreports.py](web_crawer_for_ESGreports.py)，以下載110年永續報告書為例       
+   程式碼可參考[web_crawler_for_ESGreports.py](web_crawler_for_ESGreports.py)，以下載110年永續報告書為例       
          
 
