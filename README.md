@@ -18,7 +18,7 @@ Python(selenium, pandas, FinBERT, nltk)
    (2) 設定並初始化Chrome     
    (3) 使用for迴圈，迭代每一公司，依序從公開資訊觀測站，下載其英文永續報告書      
    【程式碼】            
-   程式碼可參考[web_crawer_for_ESGreports.py](1.%20Web%20Crawler/web_crawer_for_ESGreports.py)，以下載110年永續報告書為例       
+   程式碼可參考[web_crawler_for_ESGreports.py](1.%20Web%20Crawler/web_crawler_for_ESGreports.py)，以下載110年永續報告書為例       
    
 2. [Part 2:分別計算各永續報告書的語調分數(Tone)--使用FinBERT情緒分類模型 & FinBERT主題分類模型](2.%20FinBERT_calculate%20tone)        
    (1) 整理公司股票代碼：將代碼都存在list中      
