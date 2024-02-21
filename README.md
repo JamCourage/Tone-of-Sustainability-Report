@@ -1,6 +1,12 @@
 # Tone of Sustainability Report
 Written by JamCourage                    
 
+**主題類別**            
+Text Mining, Large Language Model, FinBERT, ESG reports, Sentiment Classification         
+
+**分析工具**      
+Python(selenium, pandas, FinBERT, nltk)
+
 **主要目標**      
 計算台灣上市櫃公司英文永續報告書的揭露語調分數(Tone)，並搭配ESG主題分類           
 其中，**語調分數(Tone)** 介於-1~1，有三種情緒，分別為**中立** 、**正向** 、**負向** 。
