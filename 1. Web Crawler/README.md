@@ -5,7 +5,7 @@ Written by JamCourage
 Web Crawler         
 
 **分析工具**      
-Python(selenium, pandas, FinBERT, nltk)
+Python(selenium, pandas)
 
 **主要目標**      
 從公開資訊觀測站，下載110年所有台灣上市櫃公司的英文版永續報告書。     
