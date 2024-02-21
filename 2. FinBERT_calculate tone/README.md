@@ -1,8 +1,8 @@
-# Tone of Sustainability Report
+# Tone of Sustainability Report -- Part 2: FinBERT
 Written by JamCourage                    
 
 **主題類別**            
-Text Mining, Large Language Model, FinBERT, ESG reports, Sentiment Classification         
+Text Mining, Large Language Model, FinBERT, ESG reports, Sentiment Classification, Topic Classification         
 
 **分析工具**      
 Python(selenium, pandas, FinBERT, nltk)
