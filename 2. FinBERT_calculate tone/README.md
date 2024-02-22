@@ -2,10 +2,10 @@
 Written by JamCourage                    
 
 **主題類別**            
-Text Mining, Large Language Model, FinBERT, ESG reports, Sentiment Classification, Topic Classification         
+Text Mining, Data Preprocess, Large Language Model, FinBERT, ESG reports, Sentiment Classification, Topic Classification         
 
 **分析工具**      
-Python(selenium, pandas, FinBERT, nltk)
+Python(selenium, pandas, pdfplumber, regex, FinBERT, nltk)
 
 **主要目標**      
 計算台灣上市櫃公司英文永續報告書的揭露語調分數(Tone)，並搭配ESG主題分類           
@@ -16,12 +16,12 @@ Python(selenium, pandas, FinBERT, nltk)
 **分別計算各永續報告書的語調分數(Tone)--使用FinBERT情緒分類模型 & FinBERT主題分類模型**        
    (1)整理公司股票代碼：將代碼都存在list中      
    (2) 安裝FinBERT兩大模型、nltk tokenizer      
-   (3) 逐一擷取PDF文字       
-   (4) 文字前處理：保留英文字母大小寫、正常標點符號，其他以空白取代           
+   (3) 逐一擷取PDF文字(使用pdfplumber)       
+   (4) 文字前處理：使用regex套件，保留英文字母大小寫、正常標點符號，其他以空白取代           
    (5) nltk斷句        
    (6) FinBERT：同時檢查不得超過512張量，超過者斷成兩句   
-       (6-1) FinBERT情緒分類模型：將文本分類為**中立** 、**正向** 、**負向**           
-       (6-2) FinBERT主題分類模型：將文本分類為**環境(E)** 、**社會(S)** 、**治理(G)** 、 **非ESG**     	   
+       -(6-1) FinBERT情緒分類模型：將文本分類為**中立** 、**正向** 、**負向**           
+       -(6-2) FinBERT主題分類模型：將文本分類為**環境(E)** 、**社會(S)** 、**治理(G)** 、 **非ESG**     	   
    (7) 紀錄結果：使用pandas套件，將結果存成dataframe格式。                
    【程式碼】            
    程式碼可參考：           
